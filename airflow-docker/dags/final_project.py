@@ -81,7 +81,7 @@ with models.DAG(
     #load staging temp to bigquery
     load_temp_by_city_to_bq= GoogleCloudStorageToBigQueryOperator(
         task_id="load-raw-globaltempbycity-to-bigquery",
-        bucket="data_final_project",
+        bucket="file_final_project",
         source_objects=["raw/globaltempbycity.parquet/part*"],
         destination_project_dataset_table="agile-genius-342013:FINAL_PROJECT_STAGING.temp_by_city",
         source_format="PARQUET",
@@ -96,7 +96,7 @@ with models.DAG(
     #load staging airport to bigquery
     load_airport_to_bq = GoogleCloudStorageToBigQueryOperator(
         task_id="load-raw-airportcodes-to-bigquery",
-        bucket="data_final_project",
+        bucket="file_final_project",
         source_objects=["raw/airportcodes.parquet/part*"],
         destination_project_dataset_table="agile-genius-342013:FINAL_PROJECT_STAGING.airport",
         source_format="PARQUET",
@@ -110,10 +110,10 @@ with models.DAG(
 
     #load imigration to bigquery
     load_imigration_to_bq = GoogleCloudStorageToBigQueryOperator(
-        task_id="load-raw-imigration-to-bigquery",
-        bucket="data_final_project",
-        source_objects=["raw/imigration.parquet/part*"],
-        destination_project_dataset_table="agile-genius-342013:FINAL_PROJECT_STAGING.imigration",
+        task_id="load-raw-immigration-to-bigquery",
+        bucket="file_final_project",
+        source_objects=["raw/immigration.parquet/part*"],
+        destination_project_dataset_table="agile-genius-342013:FINAL_PROJECT_STAGING.immigration",
         source_format="PARQUET",
         create_disposition="CREATE_IF_NEEDED",
         write_disposition="WRITE_TRUNCATE",
