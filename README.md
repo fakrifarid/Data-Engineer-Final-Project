@@ -1,7 +1,5 @@
 # Data Engineering Final Project
 
-## Description
-
 Project ini meliputi :
 1. Bagaimana apache airflow membaca data dari csv
 2. Load ke Raw / Staging Area menggunakan apache spark
