@@ -2,28 +2,32 @@
 
 ## Description
 
-This is the final project of Data Engineering hosted by [Digital Skola](https://www.digitalskola.com). The project will do some tasks:
-- How does Apache Airflow read CSV files
-- Load to raw/staging area using Apache Spark
-- Load to BigQuery Data Warehouse using SQL Statements in BigQuery orchestrated by Apache Airflow
-- Entity Relationship Diagram
+Dalam final project ini, anda akan membuat sebuah datawarehouse on the cloud menggunakan Apache airflow sebagai ETL Tools dan BigQuery sebagai on the cloud datawarehouse.
+
+Project ini meliputi :
+1. Bagaimana apache airflow membaca data dari csv
+2. Load ke Raw / Staging Area menggunakan apache spark
+3. Load ke BigQuery DWH menggunakan sql statement di bigquery yang di
+orchestrate oleh airflow
+4. ERD
+5. Commit file and code kedalam github
 
 ## ETL Architecture
 
-Here is a simple ETL architecture for this project.
+Berikut adalah arsitektur ETL sederhana untuk proyek ini.
 
 ![ETL Architecture](./etl-architecture.png)
 
 ## Project Flow Diagram
 
-Here is a flow diagram for this project.
+Berikut adalah diagram alir untuk proyek ini.
 
 ![Project Flow Diagram](project-flow-diagram.png)
 
 ## Pre-requisites
 
-There are some requirements before implementing this project.
-- You have created Freetier Google Cloud Platform (GCP)
-- You have been familiar with Data Engineering tools, such as Airflow, Spark, Kafka, and more...
-- You have some experience in Programming Languages, mainly Python, SQL, Java; and Dockerization
-- Intentions and motivations in absorbing new knowledge in Data Engineering
+Ada beberapa persyaratan sebelum mengimplementasikan proyek ini.
+- Anda telah membuat Google Cloud Platform (GCP) Freetier
+- Anda sudah familiar dengan alat Rekayasa Data, seperti Airflow, Spark, Kafka, dan banyak lagi...
+- Anda memiliki beberapa pengalaman dalam Bahasa Pemrograman, terutama Python, SQL, Java; dan Dockerisasi
+- Niat dan motivasi dalam menyerap ilmu baru di bidang Data Engineering
