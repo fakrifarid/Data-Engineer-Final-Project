@@ -1,6 +1,6 @@
 # Spark Files
 
-To build the data pipeline, there are some processes formulated as ETL, shorts for `Extract`, `Transform`, and `Load`. In the `Extract` process, we have to extract the CSV files and convert those files into parquet files.
+Untuk membangun data pipeline, ada beberapa proses yang diformulasikan sebagai ETL, kependekan dari Extract, Transform, dan Load. Dalam proses Extract, kita harus mengekstrak file CSV dan mengubah file tersebut menjadi file parket.
 
 ```python
 # extract_to_parquet.py
