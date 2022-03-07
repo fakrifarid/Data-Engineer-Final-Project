@@ -24,7 +24,7 @@ Berikut adalah diagram alir untuk proyek ini.
 ## Pre-requisites
 
 Ada beberapa persyaratan sebelum mengimplementasikan proyek ini.
-- Anda telah membuat Google Cloud Platform (GCP) Freetier
-- Anda sudah familiar dengan alat Rekayasa Data, seperti Airflow, Spark, Kafka, dan banyak lagi...
-- Anda memiliki beberapa pengalaman dalam Bahasa Pemrograman, terutama Python, SQL, Java; dan Dockerisasi
+- Membuat Google Cloud Platform (GCP) Freetier
+- Familiar dengan ETL tools, seperti Airflow, Spark, dan Kafka
+- Memiliki beberapa pengalaman dalam Bahasa Pemrograman, terutama Python, SQL, Java; dan Dockerisasi
 - Niat dan motivasi dalam menyerap ilmu baru di bidang Data Engineering
