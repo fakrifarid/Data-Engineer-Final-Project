@@ -5,8 +5,7 @@
 Project ini meliputi :
 1. Bagaimana apache airflow membaca data dari csv
 2. Load ke Raw / Staging Area menggunakan apache spark
-3. Load ke BigQuery DWH menggunakan sql statement di bigquery yang di
-orchestrate oleh airflow
+3. Load ke BigQuery DWH menggunakan sql statement di bigquery yang di orchestrate oleh airflow
 4. ERD
 5. Commit file and code kedalam github
 
