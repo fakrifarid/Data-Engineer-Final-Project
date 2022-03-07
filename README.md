@@ -2,8 +2,6 @@
 
 ## Description
 
-Dalam final project ini, anda akan membuat sebuah datawarehouse on the cloud menggunakan Apache airflow sebagai ETL Tools dan BigQuery sebagai on the cloud datawarehouse.
-
 Project ini meliputi :
 1. Bagaimana apache airflow membaca data dari csv
 2. Load ke Raw / Staging Area menggunakan apache spark
