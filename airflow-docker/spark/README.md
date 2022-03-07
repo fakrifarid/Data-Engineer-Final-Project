@@ -3,8 +3,6 @@
 Untuk membangun data pipeline, ada beberapa proses yang diformulasikan sebagai ETL, yaitu Extract, Transform, dan Load. Dalam proses Extract, kita harus mengekstrak file CSV dan mengubah file tersebut menjadi file parket.
 
 ```python
-# extract_to_parquet.py
-
 # import library
 from pyspark.sql import SparkSession
 
