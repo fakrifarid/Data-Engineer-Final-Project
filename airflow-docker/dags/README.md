@@ -2,18 +2,18 @@
 
 ## DAG
 
-Based on the `Project Flow Diagram`, we build data pipeline:
-- to extract CSV files and convert into parquet files
-- to load the parquet files to Big Query: STAGING
-- to transform data in STAGING to DW datamodels and load the result to Big Query: DW
+Berdasarkan `Project Flow Diagram`, kita membangun pipeline data:
+- untuk mengekstrak file CSV dan mengubahnya menjadi file parket
+- untuk memuat file parket ke Big Query: STAGING
+- untuk mengubah data dalam STAGING ke model data DW dan memuat hasilnya ke Big Query: DW
 
 ## SQL
 
-The SQL files are combination of many tables, aggregating those data into meaningful information. There are three datamodels: `D_AIRPORT`, `D_CITY_DEMO`, and `F_IMMIGRATION_DATA`.
+TFile SQL adalah kombinasi dari banyak tabel, menggabungkan data tersebut menjadi informasi yang berarti. Ada tiga model data: `D_AIRPORT`, `D_CITY_DEMO`, and `F_IMMIGRATION_DATA`.
 
 ## Airflow Variables
 
-Define the variables which will be loaded in DAG file.
+Tentukan variabel yang akan dimuat dalam file DAG.
 
 ```python
 project_id = ""
