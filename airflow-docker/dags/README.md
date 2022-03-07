@@ -9,7 +9,10 @@ Berdasarkan `Project Flow Diagram`, kita membangun pipeline data:
 
 ## SQL
 
-TFile SQL adalah kombinasi dari banyak tabel, menggabungkan data tersebut menjadi informasi yang berarti. Ada tiga model data: `D_AIRPORT`, `D_CITY_DEMO`, and `F_IMMIGRATION_DATA`.
+File SQL adalah kombinasi dari banyak tabel, menggabungkan data tersebut menjadi informasi yang berarti. Ada tiga model data: 
+- `D_AIRPORT`
+- `D_CITY_DEMO`
+- `F_IMMIGRATION_DATA`.
 
 ## Airflow Variables
 
