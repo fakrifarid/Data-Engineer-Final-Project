@@ -7,19 +7,13 @@ Berdasarkan `Project Flow Diagram`, kita membangun pipeline data:
 - untuk memuat file parquet ke Big Query: STAGING
 - untuk mengubah data dalam STAGING ke model data DW dan memuat hasilnya ke Big Query: DW
 
-## SQL
-
-File SQL adalah kombinasi dari banyak tabel, menggabungkan data tersebut menjadi informasi yang berarti. Ada tiga model data: 
-- `D_AIRPORT`
-- `D_CITY_DEMO`
-- `F_IMMIGRATION_DATA`.
 
 ## Airflow Variables
 
 Tentukan variabel yang akan dimuat dalam file DAG.
 
 ```python
-project_id = ""
-dataproc_region = ""
-dataproc_zone = ""
+project_id = "agile-genius-342013"
+dataproc_region = "us-central1"
+dataproc_zone = "us-central1-c"
 ```
