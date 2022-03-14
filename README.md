@@ -26,3 +26,7 @@ Ada beberapa persyaratan sebelum mengimplementasikan proyek ini.
 - Familiar dengan ETL tools, seperti Airflow, Spark, dan Kafka
 - Memiliki beberapa pengalaman dalam Bahasa Pemrograman, terutama Python, SQL, Java; dan Dockerisasi
 - Niat dan motivasi dalam menyerap ilmu baru di bidang Data Engineering
+
+## Enity Relational Diagram Datawarehouse
+
+![image](https://user-images.githubusercontent.com/95616496/158112529-d3cd4e91-9445-49a0-90ed-967db27962e0.png)
