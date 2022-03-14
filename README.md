@@ -29,4 +29,6 @@ Ada beberapa persyaratan sebelum mengimplementasikan proyek ini.
 
 ## Enity Relational Diagram Datawarehouse
 
+Berikut adalah hasil ERD dari proyek ini.
+
 ![image](https://user-images.githubusercontent.com/95616496/158112529-d3cd4e91-9445-49a0-90ed-967db27962e0.png)
